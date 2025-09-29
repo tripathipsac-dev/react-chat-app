@@ -1,0 +1,24 @@
+{
+  "name": "intranet-chat-frontend",
+  "version": "0.3.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "axios": "^1.4.0",
+    "socket.io-client": "^4.7.2",
+    "framer-motion": "^10.12.16",
+    "lucide-react": "^0.269.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.7",
+    "postcss": "^8.4.23",
+    "autoprefixer": "^10.4.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postinstall": "npx tailwindcss -i ./src/styles/tailwind-input.css -o ./src/styles/tailwind-output.css"
+  }
+}
